@@ -1,1 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(1256406-lavender-fields-sunrise.jpg);
+    background-size: cover;
+    flex-direction: column;
+    font-family: sans-serif;
+}
 
+h2 {
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+}
+
+.clock div {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 80%;
+}
